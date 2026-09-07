@@ -1,0 +1,18 @@
+{
+  "validUser": {
+    "username": "playwrightTestUser01",
+    "password": "TestPass123"
+  },
+  "invalidUsername": {
+    "username": "userThatDoesNotExist999",
+    "password": "TestPass123"
+  },
+  "invalidPassword": {
+    "username": "playwrightTestUser01",
+    "password": "wrongPassword"
+  },
+  "emptyCredentials": {
+    "username": "",
+    "password": ""
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "login-automation-demoblaze",
+  "version": "1.0.0",
+  "description": "Automated login testing for demoblaze.com using Playwright (POM framework)",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:debug": "playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
